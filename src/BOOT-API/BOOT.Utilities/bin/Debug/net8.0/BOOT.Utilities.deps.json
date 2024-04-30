@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BOOT.Utilities/1.0.0": {
+        "runtime": {
+          "BOOT.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BOOT.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

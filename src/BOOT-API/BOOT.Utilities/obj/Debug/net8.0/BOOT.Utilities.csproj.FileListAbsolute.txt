@@ -1,0 +1,11 @@
+D:\NET\Pruebafull\BOOT.Utilities\bin\Debug\net8.0\BOOT.Utilities.deps.json
+D:\NET\Pruebafull\BOOT.Utilities\bin\Debug\net8.0\BOOT.Utilities.dll
+D:\NET\Pruebafull\BOOT.Utilities\bin\Debug\net8.0\BOOT.Utilities.pdb
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.AssemblyInfoInputs.cache
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.AssemblyInfo.cs
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.csproj.CoreCompileInputs.cache
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.dll
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\refint\BOOT.Utilities.dll
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.pdb
+D:\NET\Pruebafull\BOOT.Utilities\obj\Debug\net8.0\ref\BOOT.Utilities.dll

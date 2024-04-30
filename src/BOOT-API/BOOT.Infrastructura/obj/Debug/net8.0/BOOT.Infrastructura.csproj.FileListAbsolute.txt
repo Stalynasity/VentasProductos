@@ -1,0 +1,17 @@
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Infrastructura.deps.json
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Infrastructura.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Infrastructura.pdb
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.AssemblyInfoInputs.cache
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.AssemblyInfo.cs
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.csproj.CoreCompileInputs.cache
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\refint\BOOT.Infrastructura.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.pdb
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\ref\BOOT.Infrastructura.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Utilities.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Utilities.pdb
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.csproj.AssemblyReference.cache
+D:\NET\Pruebafull\BOOT.Infrastructura\obj\Debug\net8.0\BOOT.Infrastructura.csproj.CopyComplete
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Domain.dll
+D:\NET\Pruebafull\BOOT.Infrastructura\bin\Debug\net8.0\BOOT.Domain.pdb
