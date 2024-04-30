@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BOOT.Application.Commons;
+using BOOT.Application.Commons.General;
 using BOOT.Application.Dtos.Product.Response;
 using BOOT.Application.Interfaces;
 using BOOT.Domain.Entities;
@@ -19,6 +20,7 @@ namespace BOOT.Application.Services
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
+
 
         public async Task<BaseResponse<BaseEntityResponse<ProductResponseDto>>> ListProduct()
         {
@@ -59,6 +61,12 @@ namespace BOOT.Application.Services
             }
 
             return response;
+        }
+        
+        
+        public GenericResponse<List<Product>> GetAllIdProducts(List<int> Ids)
+        {
+            throw new NotImplementedException();
         }
     }
 }

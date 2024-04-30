@@ -8,20 +8,7 @@ namespace BOOT.Application.Dtos.User.Request
 {
     public class UserRequestDto
     {
-        public string? Name { get; set; }
-
-        public string? LastName { get; set; }
-
-        public string? IdentityCard { get; set; }
-
-        public string? Email { get; set; }
-
-        public string? Password { get; set; }
-
-        public string? Direccion { get; set; }
-
-        public string? Phone { get; set; }
-
-        public int? State { get; set; }
+        public string UseName { get; set; }
+        public string password { get; set; }
     }
 }

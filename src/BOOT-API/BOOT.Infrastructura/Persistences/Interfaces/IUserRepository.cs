@@ -9,7 +9,7 @@ namespace BOOT.Infrastructura.Persistences.Interfaces
 {
     public interface IUserRepository
     {
-        Task<User> AccountByUserName(string userName);
-        Task<bool> UserRegister(User entity);
+        Task<TUser> AccountByUserName(string userName);
+        Task<bool> UserRegister(TUser entity);
     }
 }

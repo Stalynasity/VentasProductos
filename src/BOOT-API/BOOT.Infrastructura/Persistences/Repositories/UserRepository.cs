@@ -1,4 +1,5 @@
 ﻿using BOOT.Domain.Entities;
+using BOOT.Infrastructura.Persistences.Contexts;
 using BOOT.Infrastructura.Persistences.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,22 +12,22 @@ namespace BOOT.Infrastructura.Persistences.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private readonly BootContext _context;
+        private readonly DbproductContext _context;
 
-        public UserRepository(BootContext context)
+        public UserRepository(DbproductContext context)
         {
             _context = context;
         }
 
-        public async Task<User> AccountByUserName(string userName)
+        public async Task<TUser> AccountByUserName(string UseName)
         {
-            var account = await _context.Users.AsNoTracking().FirstOrDefaultAsync(x => x.Email!.Equals(userName));
+            var account = await _context.TUsers.AsNoTracking().FirstOrDefaultAsync(x => x.UseName.Equals(UseName));
             return account!;
         }
 
-        public async Task<bool> UserRegister(User entity)
+        public async Task<bool> UserRegister(TUser entity)
         {
-            await _context.Users.AddAsync(entity);
+            await _context.TUsers.AddAsync(entity);
 
             var recordsAffected = await _context.SaveChangesAsync();
             return recordsAffected > 0;

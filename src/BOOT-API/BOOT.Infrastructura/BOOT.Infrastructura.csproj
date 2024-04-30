@@ -11,8 +11,4 @@
     <ProjectReference Include="..\BOOT.Utilities\BOOT.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
 </Project>

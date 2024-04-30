@@ -1,0 +1,23 @@
+<mat-toolbar>
+
+  <button mat-icon-button [matMenuTriggerFor]="animals">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+
+<mat-menu #animals="matMenu">
+  <button mat-menu-item (click)="redirectToProductsList()" >Lista de productos</button>
+  <button mat-menu-item (click)="redirectToOtherList()" >Lisa de nose</button>
+</mat-menu>
+
+
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+
+  <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button> -->
+</mat-toolbar>

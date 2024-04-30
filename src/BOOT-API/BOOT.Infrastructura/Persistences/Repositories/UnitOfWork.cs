@@ -1,4 +1,5 @@
 ﻿using BOOT.Domain.Entities;
+using BOOT.Infrastructura.Persistences.Contexts;
 using BOOT.Infrastructura.Persistences.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,9 @@ namespace BOOT.Infrastructura.Persistences.Repositories
         public IProductRepository Product { get; private set; }
         public IUserRepository User { get; private set; }
 
-        private readonly BootContext _context;
+        private readonly DbproductContext _context;
 
-        public UnitOfwork(BootContext context)
+        public UnitOfwork(DbproductContext context)
         {
             _context = context;
             Product = new ProductRepository(_context);

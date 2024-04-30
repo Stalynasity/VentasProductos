@@ -1,0 +1,25 @@
+<div class="container mt-4">
+  <h1>Product List</h1>
+  <table class="table table-striped">
+      <thead>
+          <tr>
+              <th>Product ID</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Count</th>
+              <th>Category ID</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let product of listProduct">
+              <td>{{ product.ProductId }}</td>
+              <td>{{ product.Name }}</td>
+              <td>{{ product.Price }}</td>
+              <td>{{ product.Count }}</td>
+              <td>{{ product.CategoryId }}</td>
+              <td><button class="btn btn-primary" (click)="addToCart(product.CategoryId)">Add to Cart</button></td>
+          </tr>
+      </tbody>
+  </table>
+</div>

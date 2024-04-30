@@ -1,4 +1,6 @@
-﻿using BOOT.Application.Interfaces;
+﻿using BOOT.Api.Filters;
+using BOOT.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,7 +19,7 @@ namespace BOOT.Api.Controllers
         }
 
         // GET: api/<ProductController>
-        [HttpGet]
+        [HttpGet("list")]
         public async Task<IActionResult> ListProduct()
         {
             var response = await _productApplication.ListProduct();

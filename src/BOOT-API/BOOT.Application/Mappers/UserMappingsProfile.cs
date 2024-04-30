@@ -8,8 +8,8 @@ namespace BOOT.Application.Mappers
     {
         public UserMappingsProfile() 
         {
-            CreateMap<UserRequestDto, User>();
-            CreateMap<TokenRequestDto, User>();
+            CreateMap<UserRequestDto, TUser>();
+            CreateMap<TokenRequestDto, TUser>();
         }
 
        

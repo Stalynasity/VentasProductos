@@ -306,3 +306,5 @@ D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\obj\Debug\net8.0\BOOT.Api.pdb
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\obj\Debug\net8.0\BOOT.Api.genruntimeconfig.cache
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\obj\Debug\net8.0\ref\BOOT.Api.dll
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Api\bin\Debug\net8.0\Newtonsoft.Json.dll

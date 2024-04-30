@@ -21,3 +21,4 @@ D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilit
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Utilities\obj\Debug\net8.0\refint\BOOT.Utilities.dll
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.pdb
 D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Utilities\obj\Debug\net8.0\ref\BOOT.Utilities.dll
+D:\NET\VentaFacturacion\src\BOOT-API\BOOT.Utilities\obj\Debug\net8.0\BOOT.Utilities.csproj.AssemblyReference.cache
