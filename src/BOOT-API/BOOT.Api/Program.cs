@@ -1,4 +1,5 @@
 
+using BOOT.Api.Extensions;
 using BOOT.Application.Extensions;
 using BOOT.Infrastructura.Extensions;
 
@@ -10,6 +11,7 @@ var Configuration = builder.Configuration;
 //InjectionBiblio
 builder.Services.AddInjectionInfraestructue(Configuration);
 builder.Services.AddInjectionApplication(Configuration);
+builder.Services.AddAuthentication(Configuration); //POS.Api.Extensions;
 
 
 builder.Services.AddControllers();

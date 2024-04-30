@@ -24,6 +24,8 @@ namespace BOOT.Application.Extensions
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             services.AddScoped<IProductApplication, ProductApplication>();
+            services.AddScoped<IUserApplication, UserApplication>();
+
 
             return services;
         }

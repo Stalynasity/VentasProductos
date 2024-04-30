@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yJC9JmdqZxzIbo+Hwukr3yFtbSqlLZtC3Ry0gWorFJoDWutawRVZFy0dwmKiJJIAYneISbLtC36EGorC8ixuiw==",
+  "dgSpecHash": "bhjUyE414ucrCRz5kgxOP+7/78jexufQaR2Q+UgtNYkSSJBcuS34rtIi8ZaXG1FRzPgJKNy1Zj/3/RmpqqW1CA==",
   "success": true,
-  "projectFilePath": "D:\\NET\\Pruebafull\\BOOT.Api\\BOOT.Api.csproj",
+  "projectFilePath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Api\\BOOT.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\staly\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
@@ -11,6 +11,7 @@
     "C:\\Users\\staly\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\azure.storage.blobs\\12.19.1\\azure.storage.blobs.12.19.1.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\azure.storage.common\\12.18.1\\azure.storage.common.12.18.1.nupkg.sha512",
+    "C:\\Users\\staly\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u0CjsR+8oJ2hCjECAQsuqB91N3LVuYtewZBTfaQcU39D2ckEdjDn+EU8D4wbSeYj4lz8eaMguJRysQZ/7cBiXw==",
+  "dgSpecHash": "9OY+tRCYhtONt+GCDTq1J94v4iP9KkH6P4WFF0lSuqow4+8lmjWHQZ9intqrHv2NHfREbzP+2acWcdA2ujtopg==",
   "success": true,
-  "projectFilePath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj",
+  "projectFilePath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\staly\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\staly\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

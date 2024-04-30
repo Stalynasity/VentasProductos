@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj",
+      "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj",
       "projectName": "BOOT.Utilities",
-      "projectPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj",
+      "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj",
       "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-      "outputPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\obj\\",
+      "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",

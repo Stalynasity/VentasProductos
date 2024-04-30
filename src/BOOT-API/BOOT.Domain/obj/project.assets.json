@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj",
+      "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj",
       "projectName": "BOOT.Domain",
-      "projectPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj",
+      "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj",
       "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-      "outputPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\obj\\",
+      "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,6 +11,7 @@ namespace BOOT.Infrastructura.Persistences.Repositories
     public class UnitOfwork : IUnitOfWork
     {
         public IProductRepository Product { get; private set; }
+        public IUserRepository User { get; private set; }
 
         private readonly BootContext _context;
 
@@ -18,6 +19,7 @@ namespace BOOT.Infrastructura.Persistences.Repositories
         {
             _context = context;
             Product = new ProductRepository(_context);
+            User = new UserRepository(_context);
         }
 
         public void SaveChange()

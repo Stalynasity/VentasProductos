@@ -2,11 +2,6 @@
 using BOOT.Infrastructura.Commons;
 using BOOT.Infrastructura.Persistences.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BOOT.Infrastructura.Persistences.Repositories
 {
@@ -24,7 +19,7 @@ namespace BOOT.Infrastructura.Persistences.Repositories
             var response = new BaseEntityResponse<Product>();
 
             var product = (from c in _context.Products
-                              select c).Include(x => x.Categorys).AsNoTracking().AsQueryable();
+                              select c).Include(x => x.Categorys).Include(x=>x.Categorys).AsNoTracking().AsQueryable();
 
 
             response.TotalRecords = product.Count();

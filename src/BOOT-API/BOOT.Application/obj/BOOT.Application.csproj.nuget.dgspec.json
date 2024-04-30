@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj": {}
+    "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj": {}
   },
   "projects": {
-    "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj": {
+    "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj",
+        "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj",
         "projectName": "BOOT.Application",
-        "projectPath": "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj",
+        "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj",
         "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-        "outputPath": "D:\\NET\\Pruebafull\\BOOT.Application\\obj\\",
+        "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj": {
-                "projectPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj"
+              "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj": {
+                "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj"
               },
-              "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
-                "projectPath": "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj"
+              "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
+                "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj"
               },
-              "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj": {
-                "projectPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj"
+              "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj": {
+                "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj"
               }
             }
           }
@@ -62,9 +62,17 @@
               "target": "Package",
               "version": "[12.19.1, )"
             },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[11.9.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -87,14 +95,14 @@
         }
       }
     },
-    "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj": {
+    "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj",
+        "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj",
         "projectName": "BOOT.Domain",
-        "projectPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj",
+        "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj",
         "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-        "outputPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\obj\\",
+        "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,14 +172,14 @@
         }
       }
     },
-    "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
+    "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj",
+        "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj",
         "projectName": "BOOT.Infrastructura",
-        "projectPath": "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj",
+        "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj",
         "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-        "outputPath": "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\obj\\",
+        "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,11 +196,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj": {
-                "projectPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj"
+              "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj": {
+                "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj"
               },
-              "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj": {
-                "projectPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj"
+              "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj": {
+                "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj"
               }
             }
           }
@@ -226,14 +234,14 @@
         }
       }
     },
-    "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj": {
+    "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj",
+        "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj",
         "projectName": "BOOT.Utilities",
-        "projectPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj",
+        "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj",
         "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-        "outputPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\obj\\",
+        "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -129,6 +129,19 @@
           }
         }
       },
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.9.1": {
         "type": "package",
         "compile": {
@@ -1284,6 +1297,37 @@
         "lib/net6.0/Azure.Storage.Common.xml",
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml"
+      ]
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
       ]
     },
     "FluentValidation/11.9.1": {
@@ -3083,10 +3127,12 @@
       "AutoMapper >= 13.0.1",
       "AutoMapper.Contrib.Autofac.DependencyInjection >= 8.0.0",
       "Azure.Storage.Blobs >= 12.19.1",
+      "BCrypt.Net-Next >= 4.0.3",
       "BOOT.Domain >= 1.0.0",
       "BOOT.Infrastructura >= 1.0.0",
       "BOOT.Utilities >= 1.0.0",
-      "FluentValidation.DependencyInjectionExtensions >= 11.9.1"
+      "FluentValidation.DependencyInjectionExtensions >= 11.9.1",
+      "Microsoft.EntityFrameworkCore >= 8.0.4"
     ]
   },
   "packageFolders": {
@@ -3095,11 +3141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj",
+      "projectUniqueName": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj",
       "projectName": "BOOT.Application",
-      "projectPath": "D:\\NET\\Pruebafull\\BOOT.Application\\BOOT.Application.csproj",
+      "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\BOOT.Application.csproj",
       "packagesPath": "C:\\Users\\staly\\.nuget\\packages\\",
-      "outputPath": "D:\\NET\\Pruebafull\\BOOT.Application\\obj\\",
+      "outputPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\staly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3116,14 +3162,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj": {
-              "projectPath": "D:\\NET\\Pruebafull\\BOOT.Domain\\BOOT.Domain.csproj"
+            "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj": {
+              "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Domain\\BOOT.Domain.csproj"
             },
-            "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
-              "projectPath": "D:\\NET\\Pruebafull\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj"
+            "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj": {
+              "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Infrastructura\\BOOT.Infrastructura.csproj"
             },
-            "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj": {
-              "projectPath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj"
+            "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj": {
+              "projectPath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj"
             }
           }
         }
@@ -3150,9 +3196,17 @@
             "target": "Package",
             "version": "[12.19.1, )"
           },
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",
             "version": "[11.9.1, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.4, )"
           }
         },
         "imports": [

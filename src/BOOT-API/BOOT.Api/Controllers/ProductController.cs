@@ -16,8 +16,6 @@ namespace BOOT.Api.Controllers
             _productApplication = productApplication;
         }
 
-
-
         // GET: api/<ProductController>
         [HttpGet]
         public async Task<IActionResult> ListProduct()

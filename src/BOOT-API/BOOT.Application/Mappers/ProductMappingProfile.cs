@@ -18,6 +18,7 @@ namespace BOOT.Application.Mappers
                 .ReverseMap();
 
             CreateMap<Product, ProductResponseDto>()
+                .ForMember(x => x.typoCategory, x=> x.MapFrom(y => y.Categorys.Name))
                 .ReverseMap();
 
             CreateMap<BaseEntityResponse<Product>, BaseEntityResponse<ProductResponseDto>>()

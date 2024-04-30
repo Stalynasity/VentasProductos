@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BOOT.Application.Dtos.Product.Response
+﻿namespace BOOT.Application.Dtos.Product.Response
 {
     public class ProductResponseDto
     {
@@ -21,5 +15,7 @@ namespace BOOT.Application.Dtos.Product.Response
         public string? ImagUrl { get; set; }
 
         public int? State { get; set; }
+
+        public string? typoCategory { get; set; }
     }
 }

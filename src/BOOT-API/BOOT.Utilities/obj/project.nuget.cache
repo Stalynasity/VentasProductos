@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aV1EwYGsYxDV/eOtFfkR9Mi4HptgTAI33fEZ1NPnkZiLok6vYiWC2NK5dk6wBKkH0lFwsqGog+MfVSURqOBZBw==",
+  "dgSpecHash": "Ty7pAUa6TDITy/Lfj0PiONZKnwH4tive/wUJS6+MI0Nbbnga0y0WqHvJJ6y3HCZiNHh4v4DS9ok9ABVqsec2+w==",
   "success": true,
-  "projectFilePath": "D:\\NET\\Pruebafull\\BOOT.Utilities\\BOOT.Utilities.csproj",
+  "projectFilePath": "D:\\NET\\VentaFacturacion\\src\\BOOT-API\\BOOT.Utilities\\BOOT.Utilities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
